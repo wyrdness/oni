@@ -1,10 +1,8 @@
 {
-  "category": "DEMON_ANGEL",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/oni",
     "maintainers": [
       {
@@ -18,326 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "oni",
     "name": "Oni",
-    "aliases": [
-      {
-        "name": "Ogre",
-        "language": "English",
-        "region": "Global"
-      },
-      {
-        "name": "Demon",
-        "language": "English",
-        "region": "Global"
-      }
-    ],
-    "category": "DEMON_ANGEL",
-    "subcategory": "Japanese Demons",
+    "aliases": [],
+    "category": "OF_JAPANESE_SUPERNATURAL_ENTITIES_|",
+    "subcategory": "Japanese yokai",
     "tags": [
-      "demon",
-      "yokai",
-      "japanese-folklore",
-      "buddhist",
-      "shinto",
-      "cultural-tradition",
-      "humanoid"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Japanese demons or ogres from Buddhist and Shinto traditions. Large humanoid creatures with horns, fangs, wild hair, and red or blue skin, often wielding iron clubs (kanabō).",
-      "full": "Oni are supernatural demons or ogres from Japanese folklore, Buddhist mythology, and Shinto traditions. Typically depicted as large, fearsome humanoids with horns, fangs, wild hair, and red or blue skin wearing tiger-skin loincloths, oni carry iron clubs called kanabō. They serve multiple roles in Japanese culture: punishing the wicked, guarding Buddhist hell realms, and embodying human vices like greed, anger, and pride. Humans can transform into oni through extreme wickedness or curses. Oni remain a living part of Japanese cultural tradition through festivals like Setsubun, masks, folklore, and modern media."
+      "summary": "Oni are supernatural demons or ogres from Japanese folklore, Buddhist mythology, and Shinto traditions.",
+      "full": "Oni are supernatural demons or ogres from Japanese folklore, Buddhist mythology, and Shinto traditions. Typically depicted as large, fearsome humanoids with horns, fangs, wild hair, and red or blue skin wearing tiger-skin loincloths, oni carry iron clubs called kanabō. They serve multiple roles in Japanese culture: punishing the wicked in Buddhist hell realms, guarding underworld gates, and embodying human vices like greed, anger, and pride. According to tradition, humans can transform into oni through extreme wickedness, jealousy, or curses. Oni remain a living part of Japanese cultural tradition through festivals like Setsubun (bean-throwing ceremony), traditional masks, folklore, tattoo art, and modern media including anime and video games."
     },
     "etymology": {
-      "origin": "The word 'oni' (鬼) derives from ancient Japanese, possibly from 'on' meaning to hide or conceal, reflecting their invisible spiritual nature.",
-      "meaning": "Demon, ogre, troll, or evil spirit",
-      "first_use": "Ancient Japan (pre-Heian period)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "DEMON_ANGEL",
-      "type": "Demon",
-      "subtype": "Japanese yokai",
-      "variant": "Buddhist/Shinto"
+      "category": "OF_JAPANESE_SUPERNATURAL_ENTITIES_|",
+      "type": "Japanese yokai",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "demons",
-        "name": "Demons (general)",
-        "relationship": "broader_category",
-        "description": "Oni are a specific cultural manifestation of demonic beings"
-      },
-      {
-        "id": "yokai",
-        "name": "Yokai",
-        "relationship": "related",
-        "description": "Broader category of Japanese supernatural entities"
-      },
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "similar",
-        "description": "Islamic supernatural beings with similar transformative qualities"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 2.0,
-        "max": 5.0,
-        "unit": "meters",
-        "confidence": "medium"
-      },
-      "weight": {
-        "min": 150,
-        "max": 500,
-        "unit": "kilograms",
-        "confidence": "low"
-      },
-      "coloration": [
-        "red",
-        "blue",
-        "green",
-        "black"
-      ],
-      "features": [
-        {
-          "feature": "Horns",
-          "description": "One or more horns protruding from head, typically two",
-          "frequency": "always"
-        },
-        {
-          "feature": "Fangs",
-          "description": "Large, sharp teeth or tusks",
-          "frequency": "always"
-        },
-        {
-          "feature": "Wild hair",
-          "description": "Unkempt, often standing on end",
-          "frequency": "common"
-        },
-        {
-          "feature": "Tiger-skin loincloth",
-          "description": "Traditional clothing made from tiger pelt",
-          "frequency": "common"
-        },
-        {
-          "feature": "Claws",
-          "description": "Sharp claws on hands and feet",
-          "frequency": "common"
-        },
-        {
-          "feature": "Muscular build",
-          "description": "Extremely strong and intimidating physique",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Large humanoid with demonic features. Muscular build, often depicted with grotesque or exaggerated facial features."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Superhuman strength",
-        "description": "Capable of wielding massive iron clubs (kanabō)",
-        "frequency": "always",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Shape-shifting",
-        "description": "Can take human form to deceive",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Can become invisible",
-        "frequency": "occasional",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Control of natural disasters",
-        "description": "Associated with storms, disease, and famine",
-        "frequency": "occasional",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Soul consumption",
-        "description": "Consume or torment wicked souls",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "any",
-      "disposition": "hostile",
-      "social_structure": "solitary or groups",
-      "habitat_preference": [
-        "Buddhist hell realms (Jigoku)",
-        "mountains",
-        "remote areas",
-        "gates and boundaries"
-      ],
-      "diet": "Carnivorous (especially human flesh in folklore)",
-      "patterns": [
-        "Punish wicked souls in afterlife",
-        "Guard hell realms",
-        "Embody human vices",
-        "Attack travelers or villages",
-        "Serve Buddhist deities as enforcers"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Primarily Japanese cultural sphere, including Japan and regions influenced by Japanese Buddhism and folklore.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Throughout Japan",
-        "Buddhist temples and shrines",
-        "Mountain regions"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_presence": [
-      {
-        "region": "Japan",
-        "significance": "Central to folklore, festivals, religious practice",
-        "notes": "Living cultural tradition"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Ancient Japan",
+        "date": "Unknown",
         "circa": true,
-        "source": "Pre-Heian period folklore and Buddhist texts"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Heian period (794-1185)",
-          "description": "Oni firmly established in Japanese folklore and literature"
-        },
-        {
-          "period": "Present day",
-          "description": "Continuous cultural presence in festivals, media, art"
-        }
-      ],
-      "seasonal_patterns": "Associated with Setsubun (early February) bean-throwing festival"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Oni derive from ancient Japanese animistic beliefs, later incorporated into Buddhism and Shinto. They represent the intersection of indigenous Japanese spirituality with imported Buddhist concepts of hell and demons.",
-      "earliest_accounts": "Pre-Heian period oral traditions and early Buddhist texts in Japan",
-      "folklore_connections": "Connected to Chinese demons, Korean dokkaebi, and broader Asian supernatural traditions."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "famous_oni": [
-      {
-        "name": "Shuten-dōji",
-        "description": "Most famous oni, leader of oni on Mount Ōe, defeated by legendary warrior Minamoto no Raikō",
-        "period": "Heian period"
-      },
-      {
-        "name": "Ibaraki-dōji",
-        "description": "Oni servant of Shuten-dōji, known for severed arm legend",
-        "period": "Heian period"
-      },
-      {
-        "name": "Ushi-oni",
-        "description": "Ox-headed demon, various regional variations",
-        "period": "Various"
-      }
-    ],
-    "modern_era": "Oni remain central to Japanese culture through festivals, traditional theater (Noh, kabuki), masks, tattoo art, anime, manga, and video games. They represent both fearsome evil and protective guardians depending on context."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Setsubun bean-throwing festival (driving out oni)",
-        "Oni masks in festivals and theater",
-        "Tales of transformation from human to oni",
-        "Guardian oni at temple gates"
-      ],
-      "stories": [
-        "Shuten-dōji and the oni of Mount Ōe",
-        "Ibaraki-dōji's severed arm",
-        "The Demon at Agi Bridge",
-        "Momotarō (Peach Boy) defeating oni"
-      ],
-      "beliefs": "Oni embody negative emotions and vices. Humans overcome with anger, greed, or jealousy can transform into oni. Bean-throwing drives them away."
-    },
-    "festivals": {
-      "setsubun": {
-        "date": "Early February",
-        "practice": "Bean-throwing ceremony (mamemaki) to drive out oni and welcome good fortune",
-        "chant": "Oni wa soto! Fuku wa uchi!" (Demons out! Fortune in!)
-      }
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Classical Japanese tales (setsuwa)",
-        "Noh and kabuki theater",
-        "Modern manga and light novels"
-      ],
-      "film_tv": [
-        "Numerous anime featuring oni characters",
-        "Japanese horror films",
-        "Fantasy series and games"
-      ],
-      "games": [
-        "Numerous video games featuring oni",
-        "Tabletop RPGs using Japanese folklore"
-      ],
-      "other": [
-        "Oni masks (traditional crafts)",
-        "Tattoo art (irezumi)",
-        "Festival costumes",
-        "Tourist attractions"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "scholars": [
-      {
-        "name": "Noriko T. Reider",
-        "contribution": "Academic study of oni in Japanese folklore and literature",
-        "period": "Contemporary"
-      }
-    ],
-    "academic_focus": [
-      "Religious studies (Buddhist iconography)",
-      "Anthropology (cultural traditions)",
-      "Literary analysis (classical texts)",
-      "Art history (visual representations)"
-    ]
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "reider-2010",
-      "type": "book",
-      "title": "Japanese Demon Lore: Oni from Ancient Times to the Present",
-      "authors": ["Noriko T. Reider"],
-      "publication": "Utah State University Press",
-      "date": "2010",
-      "isbn": "978-0874217988"
-    },
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    }
-  ]
+  "sources": []
 }
